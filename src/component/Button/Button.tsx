@@ -6,7 +6,7 @@ type ButtonProps = {
   name: string;
 };
 
-   const StyledButton = styled.button`
+  const StyledButton = styled.button`
   align-items: center;
   appearance: none;
   background-color: #FCFCFD;
