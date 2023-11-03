@@ -1,28 +1,13 @@
-# React + TypeScript + Vite
+# How to Use a Reusable Modal Component:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Import the Component: Import the reusable modal component into your application.
 
-Currently, two official plugins are available:
+Open the Modal: Create a trigger event, such as a button click, to open the modal. You can pass content, title, or other parameters to the modal if necessary.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Display Content: Define the content to display within the modal. This content can be a message, a form, an image, or any other relevant information.
 
-## Expanding the ESLint configuration
+Customize Styling: Customize the modal's appearance, such as colors, fonts, and animations, to fit your application's design.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Handle Actions: Implement event handlers to manage user interactions inside the modal, like form submissions or button clicks.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Reuseable_Modal
+Close the Modal: Provide options for users to close the modal, either by clicking outside the dialog or a close button within the modal.
